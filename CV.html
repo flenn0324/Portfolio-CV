@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Lien CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--Lien Fichier CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Mon Site Web</title>
+
+</head>
+<body id="body">
+<!--NAVBAR-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light " id="navbg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" id="brand" href="index.html"> <i class="bi bi-journal-code"></i> Mon Site Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbg" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Liens de site-->
+            <div class="collapse navbar-collapse ms-5 ps-5 justify-content-start" >
+                <ul class="navbar-nav">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav1"  aria-current="page" href="CV.html">Mon CV</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav2"   href="./animal.html">Mon animal préféré</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav3"  href="./ville.html">Ma ville natale</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link"  id="navbarNav4" href="./plat.html">Mon plat préféré</a>
+                    </li>
+                    <li class="nav-item ps-1 me-3">
+                        <a class="nav-link" id="navbarNav5"  href="./contacte.html">Contactez moi</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Liens des reseaux sociaux-->
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="navbarNav6"  aria-current="page" href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" id="navbarNav7"  aria-current="page" href="https://twitter.com/gacem_billel" target="_blank"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" id="navbarNav8"  aria-current="page" href="https://www.facebook.com/billel.king.33" target="_blank"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" id="navbarNav9"  aria-current="page" href="https://www.instagram.com/billel47_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Section A propos de moi-->
+    <section id="apropos">
+        <div class="container" >
+          <div class="section-title">
+            <hr class="purple">
+            <h1 class="text-center ">A PROPOS DE MOI</h1>
+            <hr class="purple mb-5">
+            <p class="lead">Etudiant en première année cycle d’ingénieur dans le domaine réseaux et télécommunication et diplôme en éducation physique et sportif</p>
+          </div>
+          <div class="row">
+            <!--Video format 2:3-->
+            <div class="col-lg-6 text-center embed-responsive embed-responsive-2by3">
+              <video controls>
+                <source src="./Video/moi.mp4" type="video/mp4">
+              Ton navigateur ne support pas ce tag video.
+              </video>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <ul class="">
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Date de naissance :</strong> 22/01/1996</li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Site web:</strong> www.monsiteweb.com</li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Numéro téléphone:</strong> 0753 26 38 13</li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Adresse :</strong> 1 rue Hoche, 95870 bezons</li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 24 ans</li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Niveau :</strong> 1ére année </li>
+                    <li class="mb-2"><i class="bi bi-rounded-right"></i> <strong>Email :</strong> gacembillel7@gmail.com</li>
+                  </ul>
+              <!--Audio format 2:3-->
+              <p>
+                Vous pouvez aussi m'entendre en cliquant sur ce vocal :
+                <audio controls>
+                  <source src="./audio/audio.aac" type="audio/aac">
+                Your browser does not support the audio element.
+                </audio>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Competences-->
+    <section id="skills" class=" rounded-3 my-5 py-3 mx-5">
+      <div class="container px-5 my-5">
+        <!--Utilisation de ACCORDION-->
+          <h1 class="text-center ">Mes Compétences</h1>
+          <p class="lead text-muted text-center mb-3 pb-5">Techniques et linguistiques</p>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Programmation & réseaux
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                <ul class="list-group ">
+                  <li class="list-group-item">HTML</li>
+                  <li class="list-group-item">CSS</li>
+                  <li class="list-group-item">Langage C</li>
+                  <li class="list-group-item">TCP/IP</li>
+                  <li class="list-group-item">VLAN</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Pack office
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul class="list-group ">
+                    <li class="list-group-item">Excel</li>
+                    <li class="list-group-item">Word</li>
+                    <li class="list-group-item">Power Point</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Langues
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <ul class="list-group ">
+                    <li class="list-group-item">Français</li>
+                    <li class="list-group-item">Anglais</li>
+                    <li class="list-group-item">Arabe</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+<!--  Section Formation/projet/diplome  -->
+        <section id="resume" class=" pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 border-purple">
+                  <!--FORMATIONS-->
+                  <h1 class="text-center mb-5 ">Mes Formations</h1>
+                  <div>
+                    <h4 class="purple">Réseaux et télécommunication</h4>
+                    <h5>Sept 2021 -  présent</h5>
+                    <p class="text-secondary" ><em>école Sup Galilée, VILLETANEUSE</em></p>
+                  </div>
+                  <div>
+                    <h4 class="purple">Télécommunication</h4>
+                    <h5>Sept 2018 - juin 2021</h5>
+                    <p class="text-secondary"><em>USTHB , Alger</em></p>
+                  </div>
+                  <div>
+                    <h4 class="purple">STAPS</h4>
+                    <h5>Sept 2016 - Sept 2018</h5>
+                    <p class="text-secondary"><em>Univ Dally Brahim, Alger</em></p>
+                  </div>
+                  <!--Activité Pro-->
+                  <h1 class="text-center mb-5 ">Activités Extra-Professionnelles</h1>
+                  <div>
+                    <h4 class="purple">Employé polyvalent</h4>
+                    <h5>Janv 2015 - Juin 2016</h5>
+                    <p class="text-secondary" ><em>Super marché, Alger</em></p>
+                  </div>
+                  <div>
+                    <h4 class="purple">Employé polyvalent</h4>
+                    <h5>Sept 2016 - Fev 2017</h5>
+                    <p class="text-secondary"><em>Restauration, Alger</em></p>
+                  </div>
+                  <div>
+                    <h4 class="purple">Entraineur d'athlétisme</h4>
+                    <h5>Sept 2018 - Juin 2019</h5>
+                    <p class="text-secondary"><em>Alger</em></p>
+                  </div>
+                </div>
+                <!--Projet acad-->
+                <div class="col-lg-6 border-purple">
+                  <h1 class="text-center mb-5 ">Projets Academiques</h1>
+                  <div>
+                    <h4 class="purple">Projet fin de cycle</h4>
+                    <h5>Janvier - Juin 2021</h5>
+                           <p>
+                             Conception et realisation d'un robot mobile commande pas smartphone via bluetooth
+                           </p>
+                  </div>
+                  <div class="resume-item">
+                    <h4 class="purple">Projet fin de cycle </h4>
+                    <h5>Janvier - Mai 2018</h5>
+                    <p>
+                      une étude sur les blessures chez les athlétes de sprint
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+    <!--FOOTER-->
+    <footer class="footer-bg" id="footer">
+      <div class="container-fluid">
+          <div class="row pt-3 align-items-center">
+              <div class="col-lg-4 text-center">
+                  <h3>Billel Toufik GACEM</h3>
+                  <h5>Etudiant 1ERE ANNEE TELECOMS</h5>
+              </div>
+              <!--Liens vers les reseaux sociaux-->
+              <div class="col-lg-4 ps-5">
+                  <h5 class="lead"> <strong>Reseaux sociaux</strong> </h5>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-purple" id="li1"><a href="https://www.facebook.com/billel.king.33" class="footerwh" target="_blank"><i class="bi bi-facebook me-2"></i>  Facebook</a> </li>
+                      <li class="list-group-item list-purple" id="li2"><a href="https://www.instagram.com/billel47_/" class="footerwh" target="_blank"><i class="bi bi-instagram me-2"></i>  Instagrame</a></li>
+                      <li class="list-group-item list-purple" id="li3"><a href="https://twitter.com/gacem_billel" class="footerwh" target="_blank"><i class="bi bi-twitter me-2"></i>  Twitter</a></li>
+                      <li class="list-group-item list-purple" id="li4"><a href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank" class="footerwh"><i class="bi bi-linkedin me-2"></i>  LinkedIn</a></li>
+                  </ul>
+              </div>
+              <!--Lien des autres pages du site-->
+              <div class="col-lg-4 ps-5">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-purple" id="li5"><a  href="CV.html" class="footerwh">Mon CV</a> </li>
+                      <li class="list-group-item list-purple" id="li6"><a  href="./ville.html" class="footerwh">Ma ville natale</a> </li>
+                      <li class="list-group-item list-purple" id="li7"><a  href="./ville.html" class="footerwh">Mon animal préféré</a></li>
+                      <li class="list-group-item list-purple" id="li8"><a  href="./plat.html" class="footerwh">Mon plat préféré</a></li>
+                      <li class="list-group-item list-purple" id="li9"><a  href="./contacte.html" class="footerwh">Contactez moi</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row justify-content-center ">
+              <p class="col-lg-4 my-2 text-center">&copy; 2022 Billel Toufik GACEM, Inc</p>
+          </div>
+      </div>
+  </footer>
+<!--LIENS JAVASCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script></body>
+</html>

@@ -1,0 +1,173 @@
+#body
+{
+    font-family: cursive;
+}
+#home
+{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 109, 143,1) 0%, rgb(255, 255, 255) 100%), url("");
+}
+/*Navbar*/
+.navbar
+{
+    background-color: rgb(0, 109, 143);
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 109, 143) ;
+}
+#brand
+{
+    color: rgb(255, 255, 255) ;
+}
+#navbarNav1,#navbarNav2,#navbarNav3,#navbarNav4,#navbarNav5,#navbarNav6,#navbarNav7,#navbarNav8,#navbarNav9
+{
+    color:rgb(255, 255, 255) ;
+}
+a
+{
+    text-decoration: none;
+}
+.ifont 
+{
+    font-size: xx-large;
+}
+.ihome
+{
+    font-size: xx-large;
+}
+#light
+{
+    display: none;
+}
+section h1
+{
+    color: rgb(0, 109, 143);
+}
+h6
+{
+    color: rgb(87, 85, 85);
+}
+.title
+{
+    color: rgb(0, 109, 143);
+}
+.nav-link:hover
+{
+    font-size: 15px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.ihover:hover
+{
+    color: rgb(8, 197, 255);
+}
+
+/*reseau sociaux couleur*/
+.linkdin
+{
+    background-color: rgb(54, 54, 218);
+}
+.instgrame
+{
+    background-color: rgb(143, 32, 87);
+}
+
+/*couleurs*/
+.bg-bleu
+{
+    background-color: rgb(0, 109, 143);
+}
+.lightbleu
+{
+    background-color: rgb(206, 225, 255);
+}
+.gris
+{
+    color: rgb(162, 163, 163);
+}
+.purple
+{
+    color: rgb(0, 109, 143);
+}
+.border-purple
+{
+    border-left-style: solid;
+    border-color: rgb(0, 109, 143);
+}
+.card-color
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/*Bottun*/
+.bot-purple
+{
+    background-color: rgb(0, 109, 143);
+}
+.bot-purple:hover
+{
+    background-color: rgb(4, 153, 199);
+}
+
+/*HEADER VILLE PAGE*/
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 70%, rgb(255, 255, 255) 100%), url("../image/Alger.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 109, 143);
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+    color: rgb(0, 109, 143);
+  }
+
+/*iframe */
+  iframe
+{
+    width:100%;
+    height:auto;
+    border:0;
+}
+/*FOOTER*/
+#footer
+{
+    color: white;
+}
+.footer-bg
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(0, 109, 143);
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 109, 143) ;
+}
+.list-purple
+{
+    background-color: rgb(0, 109, 143);
+}
+
+.footerwh
+{
+    color: white;
+}
+footer h5
+{
+    text-decoration: underline;
+}
+
+
+  

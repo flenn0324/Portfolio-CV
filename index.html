@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LIEN CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--LIEN FICHIER CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Mon Site Web</title>
+</head>
+<body id="body">
+    <!--NAVBAR-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light " id="navbg">
+        <div class="container-fluid">
+                <a class="navbar-brand me-5 " id="brand" href="index.html"> <i class="bi bi-journal-code"></i> Mon Site Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbg" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--LIENS PAGES DU SITE-->
+            <div class="collapse navbar-collapse ms-5 ps-5 justify-content-start" >
+                <ul class="navbar-nav">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav1"  aria-current="page" href="./CV.html">Mon CV</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav2"   href="./animal.html">Mon animal préféré</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav3"  href="./ville.html">Ma ville natale</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link"  id="navbarNav4" href="./plat.html">Mon plat préféré</a>
+                    </li>
+                    <li class="nav-item ps-1 me-3">
+                        <a class="nav-link" id="navbarNav5"  href="./contacte.html">Contactez moi</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Liens des reseaux sociaux-->
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbarNav6"  aria-current="page" href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav7"  aria-current="page" href="https://twitter.com/gacem_billel" target="_blank"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav8"  aria-current="page" href="https://www.facebook.com/billel.king.33" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav9"  aria-current="page" href="https://www.instagram.com/billel47_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Home page section-->
+    <section id="home">
+        <div class="container-lg py-5 mb-5">
+            <div class="row text-center justify-content-center align-items-center">
+                <div class="col-md-6 text-md-start text-lg-start">
+                    <div class="row align-items-center">
+                        <!--Icons Lien de contacte -->
+                        <div class="col-lg-2  d-none d-lg-block">
+                            <a href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank" class=" d-block my-2 purple ihover"><i class="bi bi-linkedin ifont"></i></a>
+                            <a href="tel:+213753263813" class=" d-block purple ihover mb-1"><i class="bi bi-whatsapp ifont"></i></a>
+                            <a href="mailto:gacembillel7@gmail.com" class=" d-block purple ihover"><i class="bi bi-envelope-fill ifont"></i></a>
+                        </div>
+                        <div class="col-lg-10">
+                            <h1>
+                                <span class=" my-4 text-white display-4 d-block text-center">COUCOU !</span>
+                            </h1>
+                            <h5>
+                                <span class=" my-2 text-white text-start">Je suis <span class="purple">Billel Toufik GACEM </span> et je suis étudiant en premiére année Telecoms <i class="bi bi-laptop fs-4"></i></span>
+                            </h5>
+                            <!--Button-->
+                                <a class="btn btn-lg my-3 bot-purple" href="#programme">
+                                    <span class="fs-6 text-white">Mon programme</span>  <i class="bi bi-arrow-down text-white ms-2"></i>
+                                </a>
+                                <a class="btn btn-lg my-3 bot-purple" href="./CV.html">
+                                     <span class="fs-6 text-white">Mon CV</span>  <i class="bi bi-file-person text-white ms-2"></i> 
+                                </a>
+                        </div>
+                    </div>  
+                </div>
+                <!--Image-->
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid img-thumbnail rounded-circle" src="image/billel.jpg" alt="it's me">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Section programme-->
+    <section id="programme" class="mt-1 mb-5 py-3 px-5">
+        <div class="container-fluid">
+            <hr class="purple">
+                <h2 class="text-center mb-2 purple">Mon Programme</h2>
+            <hr class="purple ">
+            <!--Tableau Heure/Date-->
+            <table class="table table-bordered my-5 table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Heure / Date</th>
+                    <th scope="col">8h - 9h</th>
+                    <th scope="col">9h - 10h</th>
+                    <th scope="col">10h - 11h</th>
+                    <th scope="col">11h - 12h</th>
+                    <th scope="col">12h - 13h</th>
+                    <th scope="col">13h - 14h</th>
+                    <th scope="col">14h - 15h</th>
+                    <th scope="col">15h - 16h</th>
+                    <th scope="col">16h - 17h</th>
+                    <th scope="col">17h - 18h</th>
+                    <th scope="col">18h - 19h</th>
+                    <th scope="col">19h - 20h</th>
+                    <th scope="col">20h - 21h</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">LUNDI 17/01</th>
+                    <td colspan="2">Promotion
+                        Salles Amphi A, Amphi Ampère, Becquerel, C214 (IG), C301 (IG), C309 (IG), G105 (IG)
+                        Matière Probabilites et Statistiques
+                        MRAD MOHAMEDAmphi A : ENER + INFO-A Amphi Bequerel : INFO-B Amphi Ampère : TELE + INSTRU
+                    </td>
+                    <td colspan="2">Promotion
+                        Salles Amphi A, Amphi Ampère, Becquerel, C214 (IG), C301 (IG), C309 (IG), G105 (IG)
+                        Matière Probabilites et Statistiques
+                        MRAD MOHAMEDAmphi A : ENER + INFO-A Amphi Bequerel : INFO-B Amphi Ampère : TELE + INSTRU
+                    </td>
+                    <td>Promotion
+                        Salle Amphi Euler
+                        Soutien math pour ingénieur
+                        Soutien math pour ingénieur
+                    </td>
+                    <td></td>
+                    <td colspan="4">TPPromotion
+                        Salles G109 (IG) , G111 (IG), G204 (IG)
+                        Matière Projet Thematique
+                        MANCEAU MATHIEU
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">MARDI 18/01</th>
+                    <td colspan="2">CMPromotion
+                        Salle C103 (IG)
+                        Matière Lignes de transmission, Guide d'ondes et Fibres optiques
+                        LONGCHAMBON LAURENT
+                    </td>
+                    <td colspan="2">CMPromotion
+                        Salle C103 (IG)
+                        Matière Lignes de transmission, Guide d'ondes et Fibres optiques
+                        LONGCHAMBON LAURENT
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">TDPromotion
+                        Salles Amphi Euler, Amphi Fermat
+                        Matière Theorie du signal
+                        SGHAIER ANISSA
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">MERCREDI 19/01</th>
+                    <td></td>
+                    <td colspan="3">Examen EcritPromotion
+                        Salles F003, F004
+                        Matière Mathematiques pour l'ingenieur
+                        EL ALAOUI LAKHNATI LINDAPartiel complémentaire
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">JEUDI 20/01</th>
+                    <td colspan="2">Promotion
+                        Salles F102, F103, G011 (IG) SALLE AUDIO VISUELLE, G102 (IG), G107 (IG)
+                        Matière Anglais Semestre 2
+                        NICOLAS MONIQUE
+                    </td>
+                    <td colspan="2">Promotion
+                        Salles F102, F103, G011 (IG) SALLE AUDIO VISUELLE, G102 (IG), G107 (IG)
+                        Matière Anglais Semestre 2
+                        NICOLAS MONIQUEGroupe B
+                    </td>
+                    <td>Promotion
+                        Salle G011 (IG) SALLE AUDIO VISUELLE
+                        Matière Réservation de salles
+                        Anglais remédiation
+                    </td>
+                    <td></td>
+                    <td>Promotion
+                        Salles G101 (IG), G103 (IG), G104 (IG), G105 (IG), G106 (IG)
+                        Matière Technique d'expression et comminication 1
+                        SEPULCHRE THERESE
+                    </td>
+                    <td colspan="2">Promotion
+                        Salles G101 (IG), G103 (IG), G104 (IG), G105 (IG), G106 (IG)
+                        Matière Technique d'expression et comminication 1
+                        SEPULCHRE THERESE
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">VENDREDI 21/01</th>
+                    <td colspan="4">TPPromotion
+                        Salles F200 (IG), F201 (IG), F202 (IG), F203 (IG)
+                        Matière Informatique: language C
+                        DUBESSY ROMAIN
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>CMPromotion
+                        Salle C102 (IG)
+                        Matière Theorie du signal
+                        BEGHDADI AZEDDINE
+                    </td>
+                    <td colspan="2">CMPromotion
+                        Salle C102 (IG)
+                        Matière Theorie du signal
+                        BEGHDADI AZEDDINE
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+
+<!--FOOTER-->
+    <footer class="footer-bg" id="footer">
+        <div class="container-fluid">
+            <div class="row pt-3 align-items-center">
+                <div class="col-lg-4 text-center">
+                    <h3>Billel Toufik GACEM</h3>
+                    <h5>Etudiant 1ERE ANNEE TELECOMS</h5>
+                </div>
+                <!--Liens des reseaux sociaux-->
+                <div class="col-lg-4 ps-5">
+                    <h5 class="lead"> <strong>Reseaux sociaux</strong> </h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-purple" id="li1"><a href="https://www.facebook.com/billel.king.33" class="footerwh" target="_blank"><i class="bi bi-facebook me-2"></i>  Facebook</a> </li>
+                        <li class="list-group-item list-purple" id="li2"><a href="https://www.instagram.com/billel47_/" class="footerwh" target="_blank"><i class="bi bi-instagram me-2"></i>  Instagrame</a></li>
+                        <li class="list-group-item list-purple" id="li3"><a href="https://twitter.com/gacem_billel" class="footerwh" target="_blank"><i class="bi bi-twitter me-2"></i>  Twitter</a></li>
+                        <li class="list-group-item list-purple" id="li4"><a href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank" class="footerwh"><i class="bi bi-linkedin me-2"></i>  LinkedIn</a></li>
+                    </ul>
+                </div>
+                <!--Liens des pages du site-->
+                <div class="col-lg-4 ps-5">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-purple" id="li5"><a  href="./CV.html" class="footerwh">Mon CV</a> </li>
+                        <li class="list-group-item list-purple" id="li6"><a  href="./ville.html" class="footerwh">Ma ville natale</a> </li>
+                        <li class="list-group-item list-purple" id="li7"><a  href="./ville.html" class="footerwh">Mon animal préféré</a></li>
+                        <li class="list-group-item list-purple" id="li8"><a  href="./plat.html" class="footerwh">Mon plat préféré</a></li>
+                        <li class="list-group-item list-purple" id="li9"><a  href="./contacte.html" class="footerwh">Contactez moi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <p class="col-lg-4 my-2 text-center">&copy; 2022 Billel Toufik GACEM, Inc</p>
+            </div>
+        </div>
+    </footer>
+<!--LIEN JAVASCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</html>

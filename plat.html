@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LIEN CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--LIEN FICHIER CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>MON PLAT PREFERE : MTEWEM !</title>
+</head>
+<body id="body">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" id="brand" href="index.html"> <i class="bi bi-journal-code"></i> Mon Site Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbg" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--LIENS PAGES DU SITE-->
+            <div class="collapse navbar-collapse ms-5 ps-5 justify-content-start" >
+                <ul class="navbar-nav">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav1"  aria-current="page" href="./CV.html">Mon CV</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav2"   href="./animal.html">Mon animal préféré</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " id="navbarNav3"  href="./ville.html">Ma ville natale</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link"  id="navbarNav4" href="plat.html">Mon plat préféré</a>
+                    </li>
+                    <li class="nav-item ps-1 me-3">
+                        <a class="nav-link" id="navbarNav5"  href="./contacte.html">Contactez moi</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Liens des reseaux sociaux-->
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbarNav6"  aria-current="page" href="https://www.linkedin.com/in/billel-gacem-154225226/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav7"  aria-current="page" href="https://twitter.com/gacem_billel" target="_blank"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav8"  aria-current="page" href="https://www.facebook.com/billel.king.33" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" id="navbarNav9"  aria-current="page" href="https://www.instagram.com/billel47_/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Section Plat-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-12">
+                <!--Description du plat-->
+                <div class="row m-3 mb-5 p-5 border rounded lightbleu align-items-center">
+                    <div class="col-lg-7 col-md-7 col-12">
+                        <h1 class=" text-center mb-5 purple"><u>MTEWEM, المثوم</u> </h1>
+                        <p>
+                            Mtewem ou tajine de boulettes de viande hachée à l'ail, un plat traditionnel algérien très populaire surtout durant Ramadan et les grandes occasions à base de viande essentiellement préparée avec de l'ail.
+                        </p>
+                        <!--lien vers les instructions-->
+                        <a class="btn btn-lg my-3 bg-bleu text-center" href="#recette">
+                            <span class="text-white">La recette</span> 
+                        </a>
+                        <!--lien vers les ingredients qui s'affiche seulement Avec le telephone !-->
+                        <a class="btn btn-lg my-3 bg-bleu d-lg-none d-md-none text-center" href="#ingredients">
+                            <span class="text-white">Les Ingrédients</span> 
+                        </a>
+                    </div>
+                    <!--image du plat-->
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <img class="img-fluid rounded-circle" src="./image/mtewem.jpg" alt="">
+                    </div>
+                </div>
+                <!--infos sur le temps-->
+                <div class="row mb-5 m-2">
+                        <div class="col-sm-4">
+                          <div class="card lightbleu ">
+                            <div class="card-body text-center">
+                              <h5 class="card-title "><i class="bi bi-bag-check"></i></h5>
+                              <p class="card-text">Temps de préparation <br> 30 minutes</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="card lightbleu ">
+                            <div class="card-body text-center">
+                              <h5 class="card-title "><i class="bi bi-thermometer-sun"></i></h5>
+                              <p class="card-text">Temps de cuisson <br> 40 minutes</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card lightbleu">
+                              <div class="card-body text-center">
+                                <h5 class="card-title  "><i class="bi bi-clock"></i></h5>
+                                <p class="card-text">Temps total <br> 1h 10 minutes</p>
+                              </div>
+                            </div>
+                        </div>
+                </div>
+          <!--Les instructions-->
+                <div id="recette" class="row m-3 p-5 pt-2 border rounded lightbleu">
+                    <h2 class="mb-4 purple text-center"><u>Instructions</u> </h2>
+                    <p class=""><em>préparer une sauce rouge pour faire cuire les morceaux de viande d'agneau:</em></p>
+                    <ol>
+                        <li>Dans une marmite, sur feu doux, faire revenir les morceaux de viande dans l’huile avec l’oignon haché, laisser bien doré.</li>
+                        <li>Préparer la Dersa, pour cela écraser l'ail  avec un peu de cumin en poudre, de sel et de paprika doux.</li>
+                        <li>Quand le tout est bien écrasé pour avoir une pate, ajouter un peu d'eau, et ajouter dans la marmite sur la viande.</li>
+                        <li>Ajouter le concentré de tomate et laisser mijoter quelques minutes.</li>
+                        <li>Ajouter une poignée de pois chiche trempés la veille dans l'eau. Puis ajouter assez d'eau bouillante pour couvrir la viande et laisser cuire.</li>
+                    </ol>
+                    <p class=""><em>Maintenant on va préparer les boulettes de viande hachée:</em></p>
+                    <ol>
+                        <li>Prendre du pain de mie et faire tremper dans un peu de lait.</li>
+                        <li>Dans un saladier, mettre la viande hachée et ajouter par dessus l’ail râpé, le sel et les épices: cumin, poivre noir et paprika doux et l'oeuf.</li>
+                        <li>Ajouter le pain de mie essoré du lait, et amalgamer le tout pour avoir un mélange homogène.</li>
+                        <li>Formez des boules de 3 cm de diamètre, et garder au frais.</li>
+                        <li>Une fois la viande cuite, plongez les boulettes dans la sauce, laissez mijoter quelques minutes, pour avoir une sauce réduite</li>
+                    </ol>
+                </div>
+            </div>
+       <!--les ingredients-->
+            <div id="ingredients" class="col-lg-4 col-md-4 col-12 bg-white p-3">
+                <section class="p-3 border bg-bleu text-white my-5">
+                    <h2 class="text-center  mb-4">Ingrédients</h2>
+                    <h5 class=""><u>Pour la sauce :</u> </h5>
+                    <ul>
+                        <li>300 g de viande en morceaux</li>
+                        <li>2 c. à soupe d' huile de table</li>
+                        <li>1 c. à soupe de beurre</li>
+                        <li>1 petit oignon</li>
+                        <li>1 poignée de pois chiches trempés la veille</li>
+                        <li>5 gousse d’ ail</li>
+                        <li>sel</li>
+                        <li>cumin en poudre</li>
+                        <li>poivre rouge ou paprika</li>
+                        <li>1/2 c. a café de tomate concentré</li>
+                    </ul>
+                    <h5 class=""><u>Pour les boulettes de viande hachée:</u></h5>
+                    <ul>
+                        <li>250 g de viande hachée</li>
+                        <li>2 gousse d' ail</li>
+                        <li>sel</li>
+                        <li>cumin en poudre</li>
+                        <li>poivre noir</li>
+                        <li>poivre rouge ou paprika doux</li>
+                        <li>2 tranches de pain de mie</li>
+                        <li>4 c. à soupe de lait</li>
+                        <li>1 oeuf</li>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
+    </section>
+
+<!--FOOTER-->
+    <footer class="footer-bg" id="footer">
+        <div class="container-fluid">
+            <div class="row justify-content-center ">
+                <p class="col-lg-4 my-2 text-center">&copy; 2022 Billel Toufik GACEM, Inc</p>
+            </div>
+        </div>
+    </footer>
+<!--Lien Javascript BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script></body>
+</html>
+
+
+
+
+    
+
+
+
+
+
+    
+
